@@ -3,18 +3,18 @@
     "modName": "Debug Mod",
     "modDiscription": "This is a debug mod! This mod gives various tools to get xp very quickly, as well as debugging tools for the Default Mod.",
     "modAuthor": "Really Basic Games",
-    "enabled": false,
+    "enabled": true,
     "dependencies": ["Default Mod"]
   },
   "resources": {
     "xp": {
       "displayName": "DEBUG-XP",
-      "amount": 0,
+      "amount": 10000000000000000000000000000,
       "baseResource": true,
       "strength": 1,
-      "xp": 1000,
+      "xp": 1,
       "unlock": {
-        "researchPoints": 0,
+        "researchPoints": 1000000000000000,
         "researched": true,
         "requiredLevel": 0
       }
@@ -30,7 +30,7 @@
         "requiredLevel": 0
       },
       "cost": {
-        "wood": 0
+        "wood": 1000000000000000000000
       },
       "productionCost": {
         "iron_ore": 1
