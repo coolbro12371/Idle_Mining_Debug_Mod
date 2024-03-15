@@ -14,7 +14,21 @@
       "strength": 1,
       "xp": 1,
       "unlock": {
-        "researchPoints": 1000000000000000,
+        "researchPoints": 0,
+        "researched": true,
+        "requiredLevel": 0
+      }
+    }
+  },
+  "resources": {
+    "xp": {
+      "displayName": "Wood",
+      "amount": 10000000000000000000000000000,
+      "baseResource": true,
+      "strength": 1,
+      "xp": 1,
+      "unlock": {
+        "researchPoints": 0,
         "researched": true,
         "requiredLevel": 0
       }
@@ -30,10 +44,10 @@
         "requiredLevel": 0
       },
       "cost": {
-        "wood": 1000000000000000000000
+        "wood": 0
       },
       "productionCost": {
-        "iron_ore": 1
+        "iron_ore": 0
       },
       "total": 0,
       "production": {
